@@ -3,3 +3,33 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    /* line-height: 30px; */
+    font-family: 'Cabin', sans-serif;
+    /* background-color: #011627; */
+}
+
+.float-left {
+    float: left;
+}
+.clearfix {
+    clear: both;
+}
+nav ul > li {
+    display: inline-block;
+}
+.heading-title {
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Roboto Condensed',sans-serif;
+}
+h1 {
+    /* letter-spacing: 20px; */
+}
+
+.container {
+    width: 80%;
+    background-color: #fdfffc;
+}
