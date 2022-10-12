@@ -42,5 +42,46 @@
             <i class="fa-solid fa-wand-magic-sparkles "></i>
         </h1>
     </header>
+    <main>
+        <div>
+            <form method="" action="">
+                <!-- Name, Email/Phone, message, subject type, and *attachment* -->
+                <div>
+                    <!-- Name -->
+                    <label for="name-input">Name</label>
+                    <input id="name-input" type="text" placeholder="Your name...">
+                </div>
+                
+                <div>
+                    <!-- Email -->
+                    <label for="email-input">Email</label>
+                    <input id="email-input" type="email" placeholder="Your email...">
+                </div>
+                <!-- Phone Number -->
+                <div>
+                    <label for="phone-input"></label>
+                    <input type="tel" id="phone-input" placeholder="Your telephone number...">
+                </div>
+                <!-- Subject Type -->
+                <div>
+                    <label for="subject-input">Subject</label>
+                    <select id="subject-input">
+                        <!-- <option value="subject_questions">Questions</option> -->
+                        <option value="services">Services</option>
+                        <option value="product">Product</option>
+                        <option value="events">Events</option>
+                        <option selected value="questions">Questions</option>
+                        <option value="careers">Career Oppurrtunities</option>
+                    </select>
+                </div>
+                <!-- Message -->
+                <div>
+                    <label for="message-input">Message</label>
+                    <textarea id="message-input" placeholder="Tell us your thoughts..." cols="30" rows="6"></textarea>
+                </div>
+                <button type="submit">Submit <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </main>
 </body>
 </html>
